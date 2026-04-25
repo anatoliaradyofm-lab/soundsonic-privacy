@@ -10,70 +10,461 @@
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       background: #0a0a0b;
       color: #e5e5e5;
-      line-height: 1.7;
+      line-height: 1.8;
       padding: 48px 24px;
     }
-    .container { max-width: 720px; margin: 0 auto; }
-    h1 { font-size: 2rem; font-weight: 800; color: #fff; margin-bottom: 8px; }
-    .subtitle { color: #888; font-size: 0.9rem; margin-bottom: 48px; }
-    h2 { font-size: 1.1rem; font-weight: 700; color: #a78bfa; margin: 36px 0 10px; }
-    p { color: #ccc; margin-bottom: 12px; }
-    ul { padding-left: 20px; color: #ccc; margin-bottom: 12px; }
+    .container { max-width: 760px; margin: 0 auto; }
+    h1 { font-size: 2rem; font-weight: 800; color: #fff; margin-bottom: 6px; }
+    .subtitle { color: #777; font-size: 0.88rem; margin-bottom: 12px; }
+    .lang-switch { margin-bottom: 40px; }
+    .lang-switch a { color: #a78bfa; text-decoration: none; font-size: 0.88rem; margin-right: 12px; border: 1px solid #333; padding: 4px 10px; border-radius: 6px; }
+    .lang-switch a:hover, .lang-switch a.active { background: #a78bfa; color: #000; }
+    .section { display: none; }
+    .section.active { display: block; }
+    h2 { font-size: 1.05rem; font-weight: 700; color: #a78bfa; margin: 36px 0 10px; }
+    h3 { font-size: 0.97rem; font-weight: 600; color: #c4b5fd; margin: 24px 0 8px; }
+    p { color: #ccc; margin-bottom: 12px; font-size: 0.95rem; }
+    ul { padding-left: 22px; color: #ccc; margin-bottom: 12px; font-size: 0.95rem; }
     ul li { margin-bottom: 6px; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 16px; font-size: 0.88rem; }
+    th { background: #1a1a2e; color: #a78bfa; text-align: left; padding: 10px 12px; border: 1px solid #2a2a3e; }
+    td { color: #ccc; padding: 10px 12px; border: 1px solid #2a2a3e; vertical-align: top; }
+    tr:nth-child(even) td { background: #111120; }
+    .highlight { background: #1a1a2e; border-left: 3px solid #a78bfa; padding: 14px 18px; border-radius: 4px; margin-bottom: 16px; }
+    .highlight p { margin: 0; }
     a { color: #a78bfa; text-decoration: none; }
     a:hover { text-decoration: underline; }
-    .footer { margin-top: 64px; padding-top: 24px; border-top: 1px solid #222; color: #555; font-size: 0.85rem; }
+    .footer { margin-top: 64px; padding-top: 24px; border-top: 1px solid #1e1e2e; color: #444; font-size: 0.82rem; }
+    .toc { background: #111; border: 1px solid #222; border-radius: 8px; padding: 20px 24px; margin-bottom: 40px; }
+    .toc h3 { color: #fff; margin: 0 0 12px; font-size: 0.9rem; }
+    .toc ol { padding-left: 20px; }
+    .toc li { margin-bottom: 4px; font-size: 0.88rem; }
+    .toc a { color: #888; }
+    .toc a:hover { color: #a78bfa; }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Privacy Policy</h1>
-    <p class="subtitle">Last updated: April 25, 2026</p>
+<div class="container">
 
-    <p>SoundSonic ("we", "our", or "us") is a music discovery application. This Privacy Policy explains how we handle information when you use our mobile application.</p>
+  <h1>Privacy Policy</h1>
+  <p class="subtitle">Effective date: April 25, 2026 &nbsp;|&nbsp; Version 1.0</p>
 
-    <h2>1. Information We Do Not Collect</h2>
-    <p>SoundSonic does not require account registration. We do not collect, store, or process:</p>
-    <ul>
-      <li>Names, email addresses, or phone numbers</li>
-      <li>Photos, videos, or media files from your device</li>
-      <li>Location data</li>
-      <li>Microphone or camera input</li>
-      <li>Contacts or calendar data</li>
-    </ul>
-
-    <h2>2. Automatically Collected Information</h2>
-    <p>The app may collect limited technical information necessary for operation:</p>
-    <ul>
-      <li><strong>Device identifiers</strong> — used by our advertising partner (Google AdMob) to serve relevant ads.</li>
-      <li><strong>App usage data</strong> — anonymized crash reports and performance metrics to improve stability.</li>
-    </ul>
-
-    <h2>3. Advertising (Google AdMob)</h2>
-    <p>SoundSonic displays ads provided by Google AdMob. Google may use an advertising identifier (Android Advertising ID) on your device to show personalized ads. You can opt out of personalized advertising at any time through your device settings:</p>
-    <ul>
-      <li>Android: Settings → Google → Ads → Delete advertising ID</li>
-    </ul>
-    <p>Google's privacy policy is available at <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a>.</p>
-
-    <h2>4. Music Streaming</h2>
-    <p>Music content is streamed from the Audius decentralized music platform. SoundSonic does not store or cache audio files on our servers. Audius's privacy policy governs data processed through their platform.</p>
-
-    <h2>5. Internet Access</h2>
-    <p>The app requires internet access solely to stream music and load content. No personal data is transmitted to our servers during this process.</p>
-
-    <h2>6. Children's Privacy</h2>
-    <p>SoundSonic is not directed at children under the age of 13. We do not knowingly collect personal information from children.</p>
-
-    <h2>7. Changes to This Policy</h2>
-    <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated date. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
-
-    <h2>8. Contact</h2>
-    <p>If you have any questions about this Privacy Policy, please contact us at: <a href="mailto:anatoliaradyofm@gmail.com">anatoliaradyofm@gmail.com</a></p>
-
-    <div class="footer">
-      <p>© 2026 SoundSonic. All rights reserved.</p>
-    </div>
+  <div class="lang-switch">
+    <a href="#" class="active" onclick="switchLang('en',this);return false;">English</a>
+    <a href="#" onclick="switchLang('tr',this);return false;">Türkçe</a>
   </div>
+
+  <!-- ═══════════════════════════  ENGLISH  ═══════════════════════════ -->
+  <div id="lang-en" class="section active">
+
+    <div class="highlight">
+      <p><strong>Summary:</strong> SoundSonic does not require an account. We do not collect your name, email, location, or device media. The only data processed is an advertising identifier used by Google AdMob to display ads. You can opt out at any time.</p>
+    </div>
+
+    <div class="toc">
+      <h3>Table of Contents</h3>
+      <ol>
+        <li><a href="#en-1">Who We Are</a></li>
+        <li><a href="#en-2">Data We Collect</a></li>
+        <li><a href="#en-3">Legal Basis for Processing (GDPR)</a></li>
+        <li><a href="#en-4">How We Use Your Data</a></li>
+        <li><a href="#en-5">Advertising – Google AdMob</a></li>
+        <li><a href="#en-6">Music Streaming – Audius</a></li>
+        <li><a href="#en-7">Data Sharing & Third Parties</a></li>
+        <li><a href="#en-8">International Data Transfers</a></li>
+        <li><a href="#en-9">Data Retention</a></li>
+        <li><a href="#en-10">Your Rights</a></li>
+        <li><a href="#en-11">Children's Privacy (COPPA)</a></li>
+        <li><a href="#en-12">California Residents (CCPA/CPRA)</a></li>
+        <li><a href="#en-13">Security</a></li>
+        <li><a href="#en-14">Changes to This Policy</a></li>
+        <li><a href="#en-15">Contact & Complaints</a></li>
+      </ol>
+    </div>
+
+    <h2 id="en-1">1. Who We Are</h2>
+    <p>SoundSonic is a music discovery mobile application operated by <strong>Anatoliaradyofm-lab</strong> ("we", "us", "our"). For the purposes of applicable data protection laws, we are the data controller.</p>
+    <p>Contact: <a href="mailto:anatoliaradyofm@gmail.com">anatoliaradyofm@gmail.com</a></p>
+
+    <h2 id="en-2">2. Data We Collect</h2>
+
+    <h3>2.1 Data We Do NOT Collect</h3>
+    <p>SoundSonic does not require account registration. We do not collect:</p>
+    <ul>
+      <li>Name, email address, phone number, or any identity information</li>
+      <li>Photos, videos, or files from your device</li>
+      <li>Precise or approximate location data</li>
+      <li>Microphone or camera input</li>
+      <li>Contacts, calendar, or health data</li>
+      <li>Passwords or financial information</li>
+    </ul>
+
+    <h3>2.2 Data Processed by Third Parties on Our Behalf</h3>
+    <table>
+      <tr>
+        <th>Data Type</th>
+        <th>Purpose</th>
+        <th>Processed By</th>
+        <th>Opt-Out</th>
+      </tr>
+      <tr>
+        <td>Android Advertising ID (AAID)</td>
+        <td>Displaying relevant ads</td>
+        <td>Google AdMob</td>
+        <td>Device Settings → Google → Ads</td>
+      </tr>
+      <tr>
+        <td>App crash reports &amp; performance metrics (anonymized)</td>
+        <td>App stability &amp; improvement</td>
+        <td>Internal / Expo</td>
+        <td>N/A (no personal data linked)</td>
+      </tr>
+      <tr>
+        <td>Music playback requests (IP address)</td>
+        <td>Streaming music content</td>
+        <td>Audius Network</td>
+        <td>See Audius Privacy Policy</td>
+      </tr>
+    </table>
+
+    <h2 id="en-3">3. Legal Basis for Processing (GDPR – EU/EEA Users)</h2>
+    <p>If you are located in the European Union or European Economic Area, we process data under the following legal bases as defined by the General Data Protection Regulation (GDPR):</p>
+    <table>
+      <tr>
+        <th>Processing Activity</th>
+        <th>Legal Basis</th>
+        <th>Article</th>
+      </tr>
+      <tr>
+        <td>Serving personalized ads via AdMob</td>
+        <td>Consent</td>
+        <td>Art. 6(1)(a)</td>
+      </tr>
+      <tr>
+        <td>Serving non-personalized ads</td>
+        <td>Legitimate Interest</td>
+        <td>Art. 6(1)(f)</td>
+      </tr>
+      <tr>
+        <td>App stability monitoring (anonymized)</td>
+        <td>Legitimate Interest</td>
+        <td>Art. 6(1)(f)</td>
+      </tr>
+      <tr>
+        <td>Music streaming (IP-based requests)</td>
+        <td>Performance of service</td>
+        <td>Art. 6(1)(b)</td>
+      </tr>
+    </table>
+    <p>You may withdraw consent for personalized advertising at any time without affecting the lawfulness of processing based on consent before withdrawal.</p>
+
+    <h2 id="en-4">4. How We Use Your Data</h2>
+    <p>Data is used exclusively for:</p>
+    <ul>
+      <li>Displaying advertisements to support the free service</li>
+      <li>Streaming music content to your device</li>
+      <li>Improving app performance through anonymized diagnostics</li>
+      <li>Personalizing the home feed based on your device's region (country code derived from device locale — not stored on our servers)</li>
+    </ul>
+    <p>We do not use your data for profiling, automated decision-making, or any purpose other than those listed above.</p>
+
+    <h2 id="en-5">5. Advertising – Google AdMob</h2>
+    <p>SoundSonic uses Google AdMob to display ads. Google may use your Android Advertising ID (AAID) to show personalized advertisements based on your interests.</p>
+    <p><strong>To opt out of personalized ads:</strong></p>
+    <ul>
+      <li>Android 12+: Settings → Privacy → Ads → Delete advertising ID</li>
+      <li>Android &lt;12: Settings → Google → Ads → Opt out of Ads Personalization</li>
+    </ul>
+    <p>Even if you opt out, you will still see non-personalized ads. Google's data practices are governed by the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>.</p>
+
+    <h2 id="en-6">6. Music Streaming – Audius</h2>
+    <p>Music content is streamed from the Audius decentralized network. When you stream a track, your IP address may be processed by Audius nodes to deliver the audio. We do not store, log, or process this data ourselves. Please review the <a href="https://audius.co/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Audius Privacy Policy</a> for details.</p>
+
+    <h2 id="en-7">7. Data Sharing & Third Parties</h2>
+    <p>We do not sell, rent, or trade your personal data. We share data only with:</p>
+    <ul>
+      <li><strong>Google AdMob</strong> — for ad delivery (as described above)</li>
+      <li><strong>Audius</strong> — for music streaming (IP address only)</li>
+      <li><strong>Law enforcement</strong> — only when required by applicable law or valid legal process</li>
+    </ul>
+
+    <h2 id="en-8">8. International Data Transfers</h2>
+    <p>Our services involve third parties (Google, Audius) that may process data in the United States and other countries outside the EU/EEA. These transfers are carried out under:</p>
+    <ul>
+      <li>Standard Contractual Clauses (SCCs) approved by the European Commission</li>
+      <li>Google's Data Processing Terms, which include appropriate safeguards</li>
+    </ul>
+    <p>By using SoundSonic, you acknowledge that your data may be transferred internationally in accordance with the safeguards described above.</p>
+
+    <h2 id="en-9">9. Data Retention</h2>
+    <p>SoundSonic itself does not store personal data on our servers. Data retention periods for third-party processors:</p>
+    <ul>
+      <li><strong>Google AdMob</strong>: Advertising ID data retained per Google's policy (typically up to 18 months for analytics purposes)</li>
+      <li><strong>Anonymized crash reports</strong>: Retained for up to 90 days</li>
+      <li><strong>Audius streaming logs</strong>: Governed by Audius's retention policy</li>
+    </ul>
+    <p>Local app data (e.g., listening history stored on your device) remains on your device and can be cleared by uninstalling the app.</p>
+
+    <h2 id="en-10">10. Your Rights</h2>
+
+    <h3>EU/EEA Residents (GDPR)</h3>
+    <p>You have the following rights regarding your personal data:</p>
+    <ul>
+      <li><strong>Right of Access (Art. 15)</strong> — Request a copy of data held about you</li>
+      <li><strong>Right to Rectification (Art. 16)</strong> — Request correction of inaccurate data</li>
+      <li><strong>Right to Erasure / "Right to be Forgotten" (Art. 17)</strong> — Request deletion of your data</li>
+      <li><strong>Right to Restriction of Processing (Art. 18)</strong> — Request limitation of how your data is used</li>
+      <li><strong>Right to Data Portability (Art. 20)</strong> — Receive your data in a machine-readable format</li>
+      <li><strong>Right to Object (Art. 21)</strong> — Object to processing based on legitimate interest</li>
+      <li><strong>Right to Withdraw Consent (Art. 7(3))</strong> — Withdraw consent for personalized ads at any time</li>
+      <li><strong>Right to Lodge a Complaint</strong> — You may file a complaint with your local Data Protection Authority (DPA)</li>
+    </ul>
+    <p>Since we do not collect personal data directly, most requests will be directed to the relevant third party (e.g., Google). To exercise your rights, contact us at <a href="mailto:anatoliaradyofm@gmail.com">anatoliaradyofm@gmail.com</a>.</p>
+
+    <h3>UK Residents (UK GDPR)</h3>
+    <p>Your rights under the UK GDPR are equivalent to those listed above. You may lodge a complaint with the <a href="https://ico.org.uk" target="_blank" rel="noopener noreferrer">Information Commissioner's Office (ICO)</a>.</p>
+
+    <h3>Turkish Residents (KVKK)</h3>
+    <p>Under Turkey's Personal Data Protection Law (KVKK No. 6698), you have the right to learn whether your personal data is being processed, request information about it, and object to processing. Contact us at the email above to exercise these rights.</p>
+
+    <h2 id="en-11">11. Children's Privacy (COPPA)</h2>
+    <p>SoundSonic is not directed at children under the age of 13 (or 16 in the EU/EEA under GDPR). We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us immediately at <a href="mailto:anatoliaradyofm@gmail.com">anatoliaradyofm@gmail.com</a> and we will take steps to delete such information.</p>
+
+    <h2 id="en-12">12. California Residents (CCPA / CPRA)</h2>
+    <p>If you are a California resident, you have the following rights under the California Consumer Privacy Act (CCPA) as amended by the California Privacy Rights Act (CPRA):</p>
+    <ul>
+      <li><strong>Right to Know</strong> — Categories of personal information collected and purposes of use</li>
+      <li><strong>Right to Delete</strong> — Request deletion of personal information</li>
+      <li><strong>Right to Opt-Out of Sale or Sharing</strong> — We do not sell or share personal information for cross-context behavioral advertising</li>
+      <li><strong>Right to Non-Discrimination</strong> — We will not discriminate against you for exercising your CCPA rights</li>
+      <li><strong>Right to Correct</strong> — Request correction of inaccurate personal information</li>
+      <li><strong>Right to Limit Use of Sensitive Personal Information</strong> — Not applicable as we do not collect sensitive personal information</li>
+    </ul>
+    <p><strong>Do Not Sell or Share My Personal Information:</strong> SoundSonic does not sell personal information. The Android Advertising ID used by Google AdMob may constitute "sharing" under CCPA. You can opt out by disabling the Advertising ID in your device settings.</p>
+    <p>To exercise your California rights, contact: <a href="mailto:anatoliaradyofm@gmail.com">anatoliaradyofm@gmail.com</a></p>
+
+    <h2 id="en-13">13. Security</h2>
+    <p>We implement industry-standard technical and organizational measures to protect data. Since SoundSonic does not transmit personal data to our own servers, the primary security risk relates to data held by third-party processors (Google, Audius), each of which maintains their own security programs. No method of electronic transmission or storage is 100% secure; we cannot guarantee absolute security.</p>
+
+    <h2 id="en-14">14. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. When we make material changes, we will update the "Effective date" at the top of this page. We encourage you to review this policy periodically. Your continued use of SoundSonic after changes are posted constitutes your acceptance of the updated policy.</p>
+
+    <h2 id="en-15">15. Contact & Complaints</h2>
+    <p>For privacy-related inquiries, requests, or complaints:</p>
+    <ul>
+      <li><strong>Email:</strong> <a href="mailto:anatoliaradyofm@gmail.com">anatoliaradyofm@gmail.com</a></li>
+      <li><strong>Response time:</strong> We aim to respond within 30 days</li>
+    </ul>
+    <p>EU/EEA residents may also contact their national Data Protection Authority. A list of EU DPAs is available at <a href="https://edpb.europa.eu/about-edpb/about-edpb/members_en" target="_blank" rel="noopener noreferrer">edpb.europa.eu</a>.</p>
+
+  </div><!-- /lang-en -->
+
+  <!-- ═══════════════════════════  TÜRKÇE  ════════════════════════════ -->
+  <div id="lang-tr" class="section">
+
+    <div class="highlight">
+      <p><strong>Özet:</strong> SoundSonic hesap gerektirmez. Adınızı, e-postanızı, konumunuzu veya cihaz medyanızı toplamıyoruz. İşlenen tek veri, Google AdMob tarafından reklam göstermek için kullanılan reklam kimliğidir. İstediğiniz zaman vazgeçebilirsiniz.</p>
+    </div>
+
+    <div class="toc">
+      <h3>İçindekiler</h3>
+      <ol>
+        <li><a href="#tr-1">Biz Kimiz</a></li>
+        <li><a href="#tr-2">Topladığımız Veriler</a></li>
+        <li><a href="#tr-3">İşlemenin Hukuki Dayanağı (GDPR)</a></li>
+        <li><a href="#tr-4">Verilerinizi Nasıl Kullanıyoruz</a></li>
+        <li><a href="#tr-5">Reklamcılık – Google AdMob</a></li>
+        <li><a href="#tr-6">Müzik Yayını – Audius</a></li>
+        <li><a href="#tr-7">Veri Paylaşımı ve Üçüncü Taraflar</a></li>
+        <li><a href="#tr-8">Uluslararası Veri Transferleri</a></li>
+        <li><a href="#tr-9">Veri Saklama</a></li>
+        <li><a href="#tr-10">Haklarınız</a></li>
+        <li><a href="#tr-11">Çocukların Gizliliği</a></li>
+        <li><a href="#tr-12">Güvenlik</a></li>
+        <li><a href="#tr-13">Politika Değişiklikleri</a></li>
+        <li><a href="#tr-14">İletişim ve Şikayetler</a></li>
+      </ol>
+    </div>
+
+    <h2 id="tr-1">1. Biz Kimiz</h2>
+    <p>SoundSonic, <strong>Anatoliaradyofm-lab</strong> ("biz", "bizim") tarafından işletilen bir müzik keşif uygulamasıdır. Geçerli veri koruma yasaları kapsamında veri sorumlusu olarak hareket etmekteyiz.</p>
+    <p>İletişim: <a href="mailto:anatoliaradyofm@gmail.com">anatoliaradyofm@gmail.com</a></p>
+
+    <h2 id="tr-2">2. Topladığımız Veriler</h2>
+
+    <h3>2.1 Toplamadığımız Veriler</h3>
+    <p>SoundSonic hesap kaydı gerektirmez. Aşağıdakileri toplamıyoruz:</p>
+    <ul>
+      <li>Ad, e-posta adresi, telefon numarası veya kimlik bilgisi</li>
+      <li>Fotoğraf, video veya cihazdaki dosyalar</li>
+      <li>Kesin veya yaklaşık konum verisi</li>
+      <li>Mikrofon veya kamera girişi</li>
+      <li>Kişiler, takvim veya sağlık verileri</li>
+      <li>Şifre veya finansal bilgiler</li>
+    </ul>
+
+    <h3>2.2 Üçüncü Taraflarca İşlenen Veriler</h3>
+    <table>
+      <tr>
+        <th>Veri Türü</th>
+        <th>Amaç</th>
+        <th>İşleyen</th>
+        <th>Vazgeçme</th>
+      </tr>
+      <tr>
+        <td>Android Reklam Kimliği (AAID)</td>
+        <td>İlgili reklamların gösterilmesi</td>
+        <td>Google AdMob</td>
+        <td>Ayarlar → Google → Reklamlar</td>
+      </tr>
+      <tr>
+        <td>Uygulama çökme raporları (anonimleştirilmiş)</td>
+        <td>Uygulama kararlılığı</td>
+        <td>Dahili / Expo</td>
+        <td>Kişisel veri içermez</td>
+      </tr>
+      <tr>
+        <td>Müzik yayın istekleri (IP adresi)</td>
+        <td>Müzik içeriği akışı</td>
+        <td>Audius Ağı</td>
+        <td>Audius Gizlilik Politikası</td>
+      </tr>
+    </table>
+
+    <h2 id="tr-3">3. İşlemenin Hukuki Dayanağı (GDPR – AB/AEA Kullanıcıları)</h2>
+    <p>AB veya Avrupa Ekonomik Alanı'nda bulunuyorsanız, verilerinizi GDPR kapsamında aşağıdaki hukuki dayanaklar çerçevesinde işliyoruz:</p>
+    <table>
+      <tr>
+        <th>İşleme Faaliyeti</th>
+        <th>Hukuki Dayanak</th>
+        <th>Madde</th>
+      </tr>
+      <tr>
+        <td>AdMob ile kişiselleştirilmiş reklam</td>
+        <td>Açık rıza</td>
+        <td>Mad. 6(1)(a)</td>
+      </tr>
+      <tr>
+        <td>Kişiselleştirilmemiş reklam</td>
+        <td>Meşru menfaat</td>
+        <td>Mad. 6(1)(f)</td>
+      </tr>
+      <tr>
+        <td>Uygulama kararlılığı izleme (anonim)</td>
+        <td>Meşru menfaat</td>
+        <td>Mad. 6(1)(f)</td>
+      </tr>
+      <tr>
+        <td>Müzik akışı (IP tabanlı istekler)</td>
+        <td>Sözleşmenin ifası</td>
+        <td>Mad. 6(1)(b)</td>
+      </tr>
+    </table>
+
+    <h2 id="tr-4">4. Verilerinizi Nasıl Kullanıyoruz</h2>
+    <ul>
+      <li>Ücretsiz hizmeti desteklemek için reklam gösterimi</li>
+      <li>Müzik içeriğinin cihazınıza akışı</li>
+      <li>Anonim tanılama verileriyle uygulama performansının iyileştirilmesi</li>
+      <li>Cihaz bölge koduna göre ana sayfa kişiselleştirmesi (sunucularımızda saklanmaz)</li>
+    </ul>
+    <p>Verileriniz profilleme, otomatik karar alma veya yukarıda belirtilenler dışında hiçbir amaç için kullanılmaz.</p>
+
+    <h2 id="tr-5">5. Reklamcılık – Google AdMob</h2>
+    <p>SoundSonic, reklam göstermek için Google AdMob kullanır. Google, ilgi alanlarınıza göre kişiselleştirilmiş reklamlar göstermek için Android Reklam Kimliğinizi (AAID) kullanabilir.</p>
+    <p><strong>Kişiselleştirilmiş reklamlardan vazgeçmek için:</strong></p>
+    <ul>
+      <li>Android 12+: Ayarlar → Gizlilik → Reklamlar → Reklam Kimliğini Sil</li>
+      <li>Android &lt;12: Ayarlar → Google → Reklamlar → Reklam Kişiselleştirmesini Devre Dışı Bırak</li>
+    </ul>
+    <p>Vazgeçseniz bile kişiselleştirilmemiş reklamlar gösterilmeye devam eder. Google'ın uygulamaları <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Gizlilik Politikası</a> kapsamındadır.</p>
+
+    <h2 id="tr-6">6. Müzik Yayını – Audius</h2>
+    <p>Müzik içeriği Audius merkezi olmayan ağından akışla sunulur. Bir parça oynatıldığında IP adresiniz Audius düğümleri tarafından işlenebilir. Bu veriyi kendimiz saklamamız, kaydetmemiz veya işlememiz söz konusu değildir. Ayrıntılar için <a href="https://audius.co/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Audius Gizlilik Politikası</a>'nı inceleyiniz.</p>
+
+    <h2 id="tr-7">7. Veri Paylaşımı ve Üçüncü Taraflar</h2>
+    <p>Kişisel verilerinizi satmıyor, kiralamıyor veya takas etmiyoruz. Veriler yalnızca şunlarla paylaşılır:</p>
+    <ul>
+      <li><strong>Google AdMob</strong> — reklam yayını için</li>
+      <li><strong>Audius</strong> — müzik akışı için (yalnızca IP adresi)</li>
+      <li><strong>Yetkili makamlar</strong> — yalnızca yasal zorunluluk halinde</li>
+    </ul>
+
+    <h2 id="tr-8">8. Uluslararası Veri Transferleri</h2>
+    <p>Hizmetlerimiz, verileri AB/AEA dışında (özellikle ABD'de) işleyebilen üçüncü tarafları (Google, Audius) kapsamaktadır. Bu transferler aşağıdaki güvenceler çerçevesinde gerçekleştirilir:</p>
+    <ul>
+      <li>Avrupa Komisyonu tarafından onaylanan Standart Sözleşme Maddeleri (SCCs)</li>
+      <li>Uygun güvenceleri içeren Google Veri İşleme Koşulları</li>
+    </ul>
+
+    <h2 id="tr-9">9. Veri Saklama</h2>
+    <p>SoundSonic kişisel veriyi kendi sunucularında saklamaz. Üçüncü taraf saklama süreleri:</p>
+    <ul>
+      <li><strong>Google AdMob:</strong> Reklam kimliği verileri Google politikası kapsamında saklanır (genellikle 18 aya kadar)</li>
+      <li><strong>Anonim çökme raporları:</strong> 90 güne kadar</li>
+      <li><strong>Audius yayın günlükleri:</strong> Audius politikasına tabidir</li>
+    </ul>
+    <p>Cihazınızda yerel olarak saklanan veriler (dinleme geçmişi vb.) yalnızca cihazınızda bulunur; uygulamayı kaldırarak silebilirsiniz.</p>
+
+    <h2 id="tr-10">10. Haklarınız</h2>
+
+    <h3>AB/AEA Kullanıcıları (GDPR)</h3>
+    <ul>
+      <li><strong>Erişim Hakkı (Mad. 15)</strong> — Hakkınızdaki verinin kopyasını talep etme</li>
+      <li><strong>Düzeltme Hakkı (Mad. 16)</strong> — Hatalı verinin düzeltilmesini isteme</li>
+      <li><strong>Silme Hakkı (Mad. 17)</strong> — Verilerinizin silinmesini talep etme</li>
+      <li><strong>İşlemeyi Kısıtlama Hakkı (Mad. 18)</strong> — Verilerinizin nasıl kullanıldığını sınırlandırma</li>
+      <li><strong>Veri Taşınabilirliği Hakkı (Mad. 20)</strong> — Makinece okunabilir formatta veri alma</li>
+      <li><strong>İtiraz Hakkı (Mad. 21)</strong> — Meşru menfaate dayalı işlemeye itiraz etme</li>
+      <li><strong>Rızayı Geri Çekme Hakkı (Mad. 7(3))</strong> — Kişiselleştirilmiş reklam rızasını geri çekme</li>
+      <li><strong>Şikâyet Hakkı</strong> — Yerel Veri Koruma Otoritesine şikâyette bulunma</li>
+    </ul>
+
+    <h3>Türkiye Kullanıcıları (KVKK)</h3>
+    <p>6698 Sayılı Kişisel Verilerin Korunması Kanunu kapsamında aşağıdaki haklara sahipsiniz:</p>
+    <ul>
+      <li>Kişisel verilerinizin işlenip işlenmediğini öğrenme</li>
+      <li>İşlenmişse buna ilişkin bilgi talep etme</li>
+      <li>İşlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme</li>
+      <li>Yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme</li>
+      <li>Eksik veya yanlış işlenmiş verilerin düzeltilmesini isteme</li>
+      <li>Kişisel verilerin silinmesini veya yok edilmesini isteme</li>
+      <li>İşlemenin kanuna aykırı olması halinde zararın giderilmesini talep etme</li>
+    </ul>
+    <p>KVKK kapsamındaki başvurularınız için: <a href="mailto:anatoliaradyofm@gmail.com">anatoliaradyofm@gmail.com</a></p>
+
+    <h2 id="tr-11">11. Çocukların Gizliliği</h2>
+    <p>SoundSonic, 13 yaşın altındaki çocuklara (AB'de GDPR kapsamında 16 yaşın altına) yönelik değildir. Çocuklardan bilerek kişisel bilgi toplamıyoruz. Bir çocuğun bize kişisel bilgi sağladığını düşünüyorsanız lütfen hemen <a href="mailto:anatoliaradyofm@gmail.com">anatoliaradyofm@gmail.com</a> adresinden iletişime geçin.</p>
+
+    <h2 id="tr-12">12. Güvenlik</h2>
+    <p>Verilerin korunması için sektör standardı teknik ve organizasyonel önlemler uyguluyoruz. SoundSonic kişisel veriyi kendi sunucularımıza iletmediğinden, birincil güvenlik sorumluluğu üçüncü taraf işleyicilere (Google, Audius) aittir. Hiçbir elektronik iletim veya depolama yöntemi %100 güvenli değildir.</p>
+
+    <h2 id="tr-13">13. Politika Değişiklikleri</h2>
+    <p>Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Önemli değişiklikler yapıldığında, sayfanın üstündeki "Yürürlük tarihi" güncellenecektir. Değişikliklerin yayımlanmasından sonra uygulamayı kullanmaya devam etmeniz, güncellenmiş politikayı kabul ettiğiniz anlamına gelir.</p>
+
+    <h2 id="tr-14">14. İletişim ve Şikayetler</h2>
+    <ul>
+      <li><strong>E-posta:</strong> <a href="mailto:anatoliaradyofm@gmail.com">anatoliaradyofm@gmail.com</a></li>
+      <li><strong>Yanıt süresi:</strong> 30 gün içinde yanıt vermeyi hedefliyoruz</li>
+    </ul>
+    <p>AB/AEA kullanıcıları ulusal Veri Koruma Otoritelerine başvurabilir: <a href="https://edpb.europa.eu/about-edpb/about-edpb/members_en" target="_blank" rel="noopener noreferrer">edpb.europa.eu</a></p>
+    <p>Türkiye kullanıcıları Kişisel Verileri Koruma Kurumu'na (KVKK) başvurabilir: <a href="https://www.kvkk.gov.tr" target="_blank" rel="noopener noreferrer">kvkk.gov.tr</a></p>
+
+  </div><!-- /lang-tr -->
+
+  <div class="footer">
+    <p>© 2026 SoundSonic · Anatoliaradyofm-lab · <a href="mailto:anatoliaradyofm@gmail.com">anatoliaradyofm@gmail.com</a></p>
+  </div>
+
+</div><!-- /container -->
+
+<script>
+  function switchLang(lang, el) {
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    document.querySelectorAll('.lang-switch a').forEach(a => a.classList.remove('active'));
+    document.getElementById('lang-' + lang).classList.add('active');
+    el.classList.add('active');
+  }
+</script>
 </body>
 </html>
